@@ -14,6 +14,9 @@ struct Vehicle
   
     init(make:Int,plate:String)
     {
+        
+        self.make=make
+        self.plate=plate
     }
     
     
