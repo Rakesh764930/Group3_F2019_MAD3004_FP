@@ -22,6 +22,9 @@ struct Vehicle
         get{
             return plate
         }
+        set{
+            self.plate=plate
+        }
     }
     
 }
