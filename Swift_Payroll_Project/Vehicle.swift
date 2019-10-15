@@ -18,6 +18,10 @@ struct Vehicle
             self.make=make
         }
     }
-    private var plate : String
+    private var plate : String{
+        get{
+            return plate
+        }
+    }
     
 }
