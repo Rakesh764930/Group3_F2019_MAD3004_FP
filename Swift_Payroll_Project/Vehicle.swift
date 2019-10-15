@@ -9,6 +9,6 @@
 import Foundation
 struct Vehicle
 {
-    
+    private var make : Int?
     
 }
