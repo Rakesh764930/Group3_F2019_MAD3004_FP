@@ -10,21 +10,11 @@ import Foundation
 struct Vehicle
 {
     private var make : Int
+   private var plate : String
+  
+    init(make:Int,plate:String)
     {
-        get{
-            return make
-        }
-        set{
-            self.make=make
-        }
     }
-    private var plate : String{
-        get{
-            return plate
-        }
-        set{
-            self.plate=plate
-        }
-    }
+    
     
 }
