@@ -9,6 +9,13 @@
 import Foundation
 struct Vehicle
 {
-    private var make : Int?
-    private var plate : String?
+    private var make : Int
+    {
+        get{
+            return make
+        }
+        
+    }
+    private var plate : String
+    
 }
