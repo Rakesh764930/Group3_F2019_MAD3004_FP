@@ -10,5 +10,5 @@ import Foundation
 struct Vehicle
 {
     private var make : Int?
-    
+    private var plate : String?
 }
