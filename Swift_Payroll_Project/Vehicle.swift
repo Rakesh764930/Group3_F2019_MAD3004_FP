@@ -14,7 +14,9 @@ struct Vehicle
         get{
             return make
         }
-        
+        set{
+            self.make=make
+        }
     }
     private var plate : String
     
