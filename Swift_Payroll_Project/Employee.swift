@@ -8,3 +8,6 @@
 
 import Foundation
 
+var name: String?
+var age: Int?
+

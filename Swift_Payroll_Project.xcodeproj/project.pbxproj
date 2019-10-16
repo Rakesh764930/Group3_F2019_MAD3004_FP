@@ -12,6 +12,7 @@
 		9BCC348B2356A1600039585C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348A2356A1600039585C /* Car.swift */; };
 		9BCC348D2356A3250039585C /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348C2356A3250039585C /* Motorcycle.swift */; };
 		9BCC348F2356A4280039585C /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348E2356A4280039585C /* PartTime.swift */; };
+		9BF1114E2357E44E00A7A1BF /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1114D2357E44E00A7A1BF /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		9BCC348A2356A1600039585C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		9BCC348C2356A3250039585C /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
 		9BCC348E2356A4280039585C /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BF1114D2357E44E00A7A1BF /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				9BCC348A2356A1600039585C /* Car.swift */,
 				9BCC348C2356A3250039585C /* Motorcycle.swift */,
 				9BCC348E2356A4280039585C /* PartTime.swift */,
+				9BF1114D2357E44E00A7A1BF /* Employee.swift */,
 			);
 			path = Swift_Payroll_Project;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BCC348D2356A3250039585C /* Motorcycle.swift in Sources */,
+				9BF1114E2357E44E00A7A1BF /* Employee.swift in Sources */,
 				9BCC348923568A190039585C /* Vehicle.swift in Sources */,
 				9BCC34822356814D0039585C /* main.swift in Sources */,
 				9BCC348F2356A4280039585C /* PartTime.swift in Sources */,
