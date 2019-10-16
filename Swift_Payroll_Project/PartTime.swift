@@ -20,7 +20,8 @@ class PartTime {
     override func printMyData()
     {
         super.printMyData()
-        
+        print("Employee is Part Time Commissioned")
+       
     }
     
     
