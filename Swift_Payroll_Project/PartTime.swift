@@ -19,7 +19,7 @@ class PartTime {
         }
     override func printMyData()
     {
-        
+        super.printMyData()
         
     }
     
