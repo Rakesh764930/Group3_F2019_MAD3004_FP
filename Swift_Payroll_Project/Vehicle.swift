@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Vehicle
+class Vehicle
 {
     private var make : Int
    private var plate : String
@@ -19,5 +19,8 @@ struct Vehicle
         self.plate=plate
     }
     
+    func printMyData(){
+    
+    }
     
 }
