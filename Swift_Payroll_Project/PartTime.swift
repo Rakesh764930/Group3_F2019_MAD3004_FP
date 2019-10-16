@@ -13,8 +13,10 @@ class PartTime {
     private var hoursWorked : Float
     
     init(rate:Float , hoursWorked:Float) {
+        self.rate=rate
+        self.hoursWorked=hoursWorked
         
-    }
+        }
     
     
     
