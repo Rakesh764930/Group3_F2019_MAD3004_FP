@@ -8,5 +8,6 @@
 
 import Foundation
 class PartTime {
+    private var rate : Float?
     
 }
