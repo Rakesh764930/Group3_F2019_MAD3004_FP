@@ -17,7 +17,11 @@ class PartTime {
         self.hoursWorked=hoursWorked
         
         }
-    
+    func printMyData()
+    {
+        
+        
+    }
     
     
     
