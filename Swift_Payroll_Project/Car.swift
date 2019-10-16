@@ -9,7 +9,7 @@
 import Foundation
 class Car : Vehicle{
     
-    private 
+    private brand : String
     
     
 }

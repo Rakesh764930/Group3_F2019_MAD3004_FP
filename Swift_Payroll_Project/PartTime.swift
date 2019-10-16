@@ -1,5 +1,5 @@
 //
-//  Motorcycle.swift
+//  PartTime.swift
 //  Swift_Payroll_Project
 //
 //  Created by MacStudent on 2019-10-15.
@@ -7,6 +7,6 @@
 //
 
 import Foundation
-class Motorcycle : Vehicle{
+class PartTime {
     
 }
