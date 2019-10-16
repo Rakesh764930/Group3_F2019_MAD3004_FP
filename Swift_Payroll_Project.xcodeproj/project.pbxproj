@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9BCC34822356814D0039585C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC34812356814D0039585C /* main.swift */; };
 		9BCC348923568A190039585C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348823568A190039585C /* Vehicle.swift */; };
+		9BCC348B2356A1600039585C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348A2356A1600039585C /* Car.swift */; };
+		9BCC348D2356A3250039585C /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC348C2356A3250039585C /* Motorcycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		9BCC347E2356814D0039585C /* Swift_Payroll_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Payroll_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCC34812356814D0039585C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BCC348823568A190039585C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BCC348A2356A1600039585C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BCC348C2356A3250039585C /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				9BCC34812356814D0039585C /* main.swift */,
 				9BCC348823568A190039585C /* Vehicle.swift */,
+				9BCC348A2356A1600039585C /* Car.swift */,
+				9BCC348C2356A3250039585C /* Motorcycle.swift */,
 			);
 			path = Swift_Payroll_Project;
 			sourceTree = "<group>";
@@ -122,8 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCC348D2356A3250039585C /* Motorcycle.swift in Sources */,
 				9BCC348923568A190039585C /* Vehicle.swift in Sources */,
 				9BCC34822356814D0039585C /* main.swift in Sources */,
+				9BCC348B2356A1600039585C /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
