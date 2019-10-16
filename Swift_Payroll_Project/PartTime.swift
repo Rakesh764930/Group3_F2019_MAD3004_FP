@@ -8,6 +8,20 @@
 
 import Foundation
 class PartTime {
+    
     private var rate : Float
     private var hoursWorked : Float
+    
+    init(rate:Float , hoursWorked:Float) {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
