@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class PartTime {
+class PartTime : Employee {
     
     private var rate : Float
     private var hoursWorked : Float
