@@ -13,9 +13,12 @@ var age: Int?
 
 
 func calcBirthYear() -> Int{
+    //Getting Date
     let date = Date()
+    //getting year
     let calender = Calendar.current
     var currYear = calender.component(.year, from: date)
+    //returning result
     return currYear - age!
 }
 
