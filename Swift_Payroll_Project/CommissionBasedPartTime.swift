@@ -20,7 +20,9 @@ class CommissionBasedPartTime:PartTime{
         self.commission=commission
     }
 
-
+    func calcEarnings() -> Float {
+        
+    }
 
 
 
