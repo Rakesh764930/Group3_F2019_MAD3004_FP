@@ -11,3 +11,9 @@ import Foundation
 var name: String?
 var age: Int?
 
+
+func calcBirthYear() -> Int{
+    let date = Date()
+    
+}
+
