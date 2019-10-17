@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+class Employee{
 var name: String?
 var age: Int?
 
@@ -21,4 +21,12 @@ func calcBirthYear() -> Int{
     //returning result
     return currYear - age!
 }
-
+func calcEarnings() -> Int{
+        return 1000;
+    }
+func printMyData() {
+        print("Name   : \(name))")
+        print("Age    : \(age)")
+        print("Birth Year : \(calcBirthYear())")
+    }
+}
