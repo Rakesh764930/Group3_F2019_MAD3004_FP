@@ -15,12 +15,16 @@ class CommissionBasedPartTime:PartTime{
     
     init(commissionPerc:Float , finalSalary:Float , commission:Float)
     {
+        super.init(rate: <#T##Float#>, hoursWorked: <#T##Float#>)
         self.commissionPerc=commissionPerc
         self.finalSalary=finalSalary
         self.commission=commission
     }
 
     func calcEarnings() -> Float {
+        
+        
+        
         
     }
 
