@@ -16,6 +16,7 @@ class CommissionBasedPartTime:PartTime{
     init(commissionPerc:Float , finalSalary:Float , commission:Float)
     {
         self.commissionPerc=commissionPerc
+        self.finalSalary=finalSalary
     }
 
 
