@@ -7,6 +7,22 @@
 //
 
 import Foundation
-class CommissionBasedPartTime{
+class CommissionBasedPartTime:PartTime{
     
+    var commissionPerc:Float
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
