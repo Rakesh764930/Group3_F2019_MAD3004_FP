@@ -11,6 +11,7 @@ class CommissionBasedPartTime:PartTime{
     
     var commissionPerc:Float
     var finalSalary:Float
+    var commission:Float
 
 
 
