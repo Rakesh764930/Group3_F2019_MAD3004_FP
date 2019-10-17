@@ -9,8 +9,8 @@
 import Foundation
 class CommissionBasedPartTime:PartTime{
     
-    var commissionPerc:Float?
-
+    var commissionPerc:Float
+    var finalSalary:Float
 
 
 
