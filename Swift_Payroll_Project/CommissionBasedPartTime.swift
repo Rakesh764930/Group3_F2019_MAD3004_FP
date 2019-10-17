@@ -17,6 +17,7 @@ class CommissionBasedPartTime:PartTime{
     {
         self.commissionPerc=commissionPerc
         self.finalSalary=finalSalary
+        self.commission=commission
     }
 
 
