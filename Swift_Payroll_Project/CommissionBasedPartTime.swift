@@ -12,6 +12,8 @@ class CommissionBasedPartTime:PartTime{
     var commissionPerc:Float
     var finalSalary:Float
     var commission:Float
+    
+    init(commissionPerc:Float , finalSalary:Float , commission:Float)
 
 
 
