@@ -30,7 +30,7 @@ class CommissionBasedPartTime:PartTime{
     }
         
     override func printMyData() {
-        
+        super.printMyData();
     }
 
 
