@@ -7,12 +7,12 @@
 //
 
 import Foundation
-class Car:Vehicle{
-    
-    private var brand:String
-    init(brand:String) {
-        super.init(make: <#T##Int#>, plate: <#T##String#>)
-        self.brand=brand
-    }
-    
-}
+//class Car: Vehicle{
+//    
+//    private var brand:String
+////    init(brand:String) {
+//////        super.init(make: <#T##Int#>, plate: <#T##String#>)
+//////        self.brand=brand
+////    }
+////
+//}
