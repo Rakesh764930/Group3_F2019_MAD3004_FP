@@ -9,7 +9,7 @@
 import Foundation
 class FixedBasedPartTime : PartTime
 {
-    
+    var FixedAmount:Float
     
     
     
