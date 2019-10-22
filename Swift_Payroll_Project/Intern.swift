@@ -12,7 +12,7 @@ class intern:Employee {
     
     init(name:String,age:Int,schoolName:String) {
         self.schoolName=schoolName
-        super.init(name: name, age: age)
+        super.init(name:name,age:age)
     }
     
 }
