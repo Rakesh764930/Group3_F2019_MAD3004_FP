@@ -21,6 +21,8 @@ class Vehicle : IDisplay
     }
     
     func printMyData(){
+        print("Make  \(make)")
+        print("Plate  \(plate)")
     
     }
     
