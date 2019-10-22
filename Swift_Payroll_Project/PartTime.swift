@@ -12,16 +12,17 @@ class PartTime:Employee
     
     var rate : Float
      var hoursWorked : Float
-    
+    var finalSalary:Float
    
     
     
-    init(rate:Float , hoursWorked:Float,name:String,age:Int)
+    init(rate:Float , hoursWorked:Float,name:String,age:Int,finalSalary:Float)
         
     {
         
         self.rate=rate
         self.hoursWorked=hoursWorked
+        self.finalSalary=finalSalary
         super.init(name: name, age: age)
         
     }

@@ -11,15 +11,16 @@ class FixedBasedPartTime : PartTime
 {
     var fixedAmount:Float
     
-    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int) {
+    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int,finalSalary:Float) {
        
         self.fixedAmount=fixedAmount
-         super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age)
+        super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age,finalSalary:finalSalary)
     }
     
     
     func calcEarnings() -> Float {
-        
+        finalSalary = hoursWorked * rate + fixedAmount
+        return finalSalary
     }
     
     

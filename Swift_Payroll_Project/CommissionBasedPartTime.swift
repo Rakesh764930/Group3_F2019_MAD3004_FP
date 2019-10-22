@@ -10,7 +10,7 @@ import Foundation
 class CommissionBasedPartTime:PartTime{
     
     var commissionPerc:Float
-    var finalSalary:Float
+    
     var commission:Float
     
     init(rate: Float,hoursWorked:Float,commissionPerc:Float,finalSalary:Float,commission:Float,name:String,age:Int)
