@@ -10,5 +10,9 @@ import Foundation
 class FullTIme:Employee{
     
     var bonus:Double
+    init(name: String, age: Int,bonus:Double) {
+        self.bonus=bonus
+        super.init(name: name, age: age)
+    }
   
 }
