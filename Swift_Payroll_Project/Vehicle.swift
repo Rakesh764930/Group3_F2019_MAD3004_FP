@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Vehicle
+class Vehicle : IDisplay
 {
      var make:Int
     var plate:String

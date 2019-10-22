@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7C1ADB235E907D008928A7 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C1ADA235E907D008928A7 /* IDisplay.swift */; };
 		9B8B532A23594B3100CAA12B /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */; };
 		9BBBF44C2357E69200E0802C /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */; };
 		9BCC34822356814D0039585C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC34812356814D0039585C /* main.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B7C1ADA235E907D008928A7 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
 		9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
 		9BCC347E2356814D0039585C /* Swift_Payroll_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Payroll_Project; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 			children = (
 				9BCC34812356814D0039585C /* main.swift */,
 				9BCC348823568A190039585C /* Vehicle.swift */,
+				9B7C1ADA235E907D008928A7 /* IDisplay.swift */,
 				9BCC348A2356A1600039585C /* Car.swift */,
 				9BCC348C2356A3250039585C /* Motorcycle.swift */,
 				9BCC348E2356A4280039585C /* PartTime.swift */,
@@ -148,6 +151,7 @@
 				9BCC34822356814D0039585C /* main.swift in Sources */,
 				9BCC348F2356A4280039585C /* PartTime.swift in Sources */,
 				9BCC348B2356A1600039585C /* Car.swift in Sources */,
+				9B7C1ADB235E907D008928A7 /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
