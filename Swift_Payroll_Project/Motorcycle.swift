@@ -18,6 +18,11 @@ class Motorcycle : Vehicle{
         super.init(make:make, plate:plate)
     }
     
+   override func printMyData() {
+    super.printMyData()
+    
+    
+    }
     
     
     
