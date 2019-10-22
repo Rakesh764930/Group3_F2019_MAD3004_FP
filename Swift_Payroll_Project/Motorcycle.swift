@@ -20,8 +20,8 @@ class Motorcycle : Vehicle{
     
    override func printMyData() {
     super.printMyData()
-    
-    
+    print("Model     :\(model)")
+     print("type    :\(type)")
     }
     
     
