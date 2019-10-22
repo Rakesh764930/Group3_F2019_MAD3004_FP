@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Employee{
+class Employee:IDisplay{
 var name:String
 var age:Int
     
@@ -30,7 +30,7 @@ func calcEarnings() -> Int{
         return 1000;
     }
 func printMyData() {
-        print("Name   : \(name))")
+        print("Name   : \(name)")
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
     }
