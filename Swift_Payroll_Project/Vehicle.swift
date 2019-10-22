@@ -20,7 +20,8 @@ class Vehicle : IDisplay
         self.plate=plate
     }
     
-    func printMyData(){
+    func printMyData()
+    {
         print("Make  \(make)")
         print("Plate  \(plate)")
     
