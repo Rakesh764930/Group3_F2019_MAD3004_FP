@@ -18,5 +18,8 @@ class Car: Vehicle{
          super.init(make:make,plate:plate)
     }
     
+    override func printMyData() {
+        
+    }
 
 }
