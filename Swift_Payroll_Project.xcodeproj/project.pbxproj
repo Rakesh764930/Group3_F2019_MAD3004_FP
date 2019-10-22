@@ -58,6 +58,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B8FCDFD235FB36200C6C066 /* Vehicle  */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC348823568A190039585C /* Vehicle.swift */,
+				9BCC348A2356A1600039585C /* Car.swift */,
+				9BCC348C2356A3250039585C /* Motorcycle.swift */,
+			);
+			path = "Vehicle ";
+			sourceTree = "<group>";
+		};
+		9B8FCDFE235FB38700C6C066 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9BF1114D2357E44E00A7A1BF /* Employee.swift */,
+				9BCC348E2356A4280039585C /* PartTime.swift */,
+				9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */,
+				9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */,
+				9BB7D3DA235FA29300DF89D5 /* Intern.swift */,
+				9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		9B8FCDFF235FB3C200C6C066 /* Display Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C1ADA235E907D008928A7 /* IDisplay.swift */,
+			);
+			path = "Display Protocol";
+			sourceTree = "<group>";
+		};
+		9B8FCE00235FB3DB00C6C066 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC34812356814D0039585C /* main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		9BCC34752356814D0039585C = {
 			isa = PBXGroup;
 			children = (
@@ -77,17 +116,10 @@
 		9BCC34802356814D0039585C /* Swift_Payroll_Project */ = {
 			isa = PBXGroup;
 			children = (
-				9BCC34812356814D0039585C /* main.swift */,
-				9BCC348823568A190039585C /* Vehicle.swift */,
-				9BB7D3DA235FA29300DF89D5 /* Intern.swift */,
-				9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */,
-				9B7C1ADA235E907D008928A7 /* IDisplay.swift */,
-				9BCC348A2356A1600039585C /* Car.swift */,
-				9BCC348C2356A3250039585C /* Motorcycle.swift */,
-				9BCC348E2356A4280039585C /* PartTime.swift */,
-				9BF1114D2357E44E00A7A1BF /* Employee.swift */,
-				9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */,
-				9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */,
+				9B8FCE00235FB3DB00C6C066 /* Main */,
+				9B8FCDFF235FB3C200C6C066 /* Display Protocol */,
+				9B8FCDFE235FB38700C6C066 /* Employee */,
+				9B8FCDFD235FB36200C6C066 /* Vehicle  */,
 			);
 			path = Swift_Payroll_Project;
 			sourceTree = "<group>";

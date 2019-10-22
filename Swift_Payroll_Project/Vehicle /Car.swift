@@ -23,5 +23,7 @@ class Car: Vehicle{
         print("Brand     : \(brand)")
         print("Number of seats     :  \(numberOfSeats)")
     }
-
+    
+    
+    
 }
