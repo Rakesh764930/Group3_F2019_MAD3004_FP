@@ -37,7 +37,7 @@ func printMyData() {
     
 //  Objects Creation
     
-    var c1 = Car(brand:String, numberOfSeats: <#T##Int#>, make: <#T##Int#>, plate: <#T##String#>)
+    var c1 = Car(brand: String, numberOfSeats: Int, make: Int, plate: String)
     
     
 }
