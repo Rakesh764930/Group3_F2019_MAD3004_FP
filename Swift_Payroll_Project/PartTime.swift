@@ -16,13 +16,13 @@ class PartTime : Employee
    
     
     
-    init(rate:Float , hoursWorked:Float,name:String,age:Int)
+    init(rate:Float , hoursWorked:Float,name:String,age:Int,salary:Double)
         
     {
         
         self.rate=rate
         self.hoursWorked=hoursWorked
-        super.init(name: name, age: age)
+        super.init(name: name, age: age,salary:salary)
         
     }
     override func printMyData()

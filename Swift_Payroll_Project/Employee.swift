@@ -10,10 +10,11 @@ import Foundation
 class Employee:IDisplay{
 var name:String
 var age:Int
-    
-    init(name:String,age:Int) {
+    var salary:Double
+    init(name:String,age:Int,salary:Double) {
         self.name=name
         self.age=age
+        self.salary=salary
     }
 
 
