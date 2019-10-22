@@ -18,7 +18,9 @@ class FixedBasedPartTime : PartTime
     }
     
     
-    
+    func calcEarnings() -> Float {
+        
+    }
     
     
     
