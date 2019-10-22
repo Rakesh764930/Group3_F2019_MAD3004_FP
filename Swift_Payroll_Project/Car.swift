@@ -20,6 +20,8 @@ class Car: Vehicle{
     
     override func printMyData() {
         super.printMyData()
+        print("Brand     : \(brand)")
+        print("Number of seats     :  \(numberOfSeats)")
     }
 
 }
