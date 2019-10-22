@@ -22,9 +22,9 @@ func calcBirthYear() -> Int{
     let date = Date()
     //getting year
     let calender = Calendar.current
-    var currYear = calender.component(.year, from: date)
+    let currYear = calender.component(.year, from: date)
     //returning result
-    return currYear - age!
+    return currYear - age
 }
 func calcEarnings() -> Int{
         return 1000;
