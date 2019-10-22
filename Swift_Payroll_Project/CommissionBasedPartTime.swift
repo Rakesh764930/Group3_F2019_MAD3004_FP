@@ -13,19 +13,19 @@ class CommissionBasedPartTime:PartTime{
     var finalSalary:Float
     var commission:Float
     
-    init(rate: Float, hoursWorked: Float, commissionPerc:Float , finalSalary:Float , commission:Float)
+    init(rate: Float,hoursWorked:Float,commissionPerc:Float,finalSalary:Float,commission:Float,name:String,age:Int)
     {
         
         self.commissionPerc=commissionPerc
         self.finalSalary=finalSalary
         self.commission=commission
         
-        super.init(rate: rate, hoursWorked: hoursWorked)
+        super.init(rate: rate, hoursWorked: hoursWorked, name: name, age: age)
     }
 
     func calcEarnings() -> Float {
-         commission = getHoursWorked * getRate * commissionPerc/100;
-        finalSalary = getHoursWorked * getRate + commission;
+         commission = hoursWorked * rate * commissionPerc/100;
+        finalSalary = hoursWorked * rate + commission;
         return finalSalary
     }
         
