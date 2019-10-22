@@ -7,6 +7,6 @@
 //
 
 import Foundation
-class FullTIme{
+class FullTIme:Employee{
   
 }
