@@ -7,26 +7,22 @@
 //
 
 import Foundation
-class PartTime : Employee {
+class PartTime : Employee
+{
     
-    private var rate : Float
-    private var hoursWorked : Float
+    var rate : Float
+     var hoursWorked : Float
     
-    var getHoursWorked: Float {
-        get {
-            return hoursWorked
-        }
-    }
-    var getRate: Float {
-        get {
-            return rate
-        }
-    }
+   
     
     
-    init(rate:Float , hoursWorked:Float) {
+    init(rate:Float , hoursWorked:Float,name:String,age:Int)
+        
+    {
+        
         self.rate=rate
         self.hoursWorked=hoursWorked
+        super.init(name: name, age: age)
         
     }
     override func printMyData()
