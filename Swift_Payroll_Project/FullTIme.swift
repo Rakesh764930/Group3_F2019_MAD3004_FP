@@ -8,5 +8,7 @@
 
 import Foundation
 class FullTIme:Employee{
+    
+    var bonus:Double
   
 }
