@@ -8,7 +8,18 @@
 
 import Foundation
 class Motorcycle : Vehicle{
-    var model : String
-    var insurance:Bool
-    var type:String
+   private var model : String
+   private var type:String
+    
+    init(model : String,type:String)
+    {
+        super.init(make: <#T##Int#>, plate: <#T##String#>)
+        self.model=model
+        self.type=type
+    }
+    
+    
+    
+    
+    
 }
