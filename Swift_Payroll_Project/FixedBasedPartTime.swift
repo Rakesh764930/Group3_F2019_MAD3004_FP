@@ -9,8 +9,13 @@
 import Foundation
 class FixedBasedPartTime : PartTime
 {
-    var FixedAmount:Float
+    var fixedAmount:Float
     
+    init(fixedAmount:Float,rate:Float , hoursWorked:Float) {
+       
+        self.fixedAmount=fixedAmount
+         super.init(rate:rate, hoursWorked:hoursWorked)
+    }
     
     
     
