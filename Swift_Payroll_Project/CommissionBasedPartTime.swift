@@ -7,6 +7,10 @@
 //
 
 import Foundation
+enum commisionBasedError:Error
+{
+    
+}
 class CommissionBasedPartTime:PartTime{
     
     var commissionPerc:Float
