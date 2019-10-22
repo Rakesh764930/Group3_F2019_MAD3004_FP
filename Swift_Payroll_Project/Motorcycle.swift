@@ -8,5 +8,7 @@
 
 import Foundation
 class Motorcycle : Vehicle{
-    
+    var model : String
+    var insurance:Bool
+   
 }
