@@ -8,5 +8,7 @@
 
 import Foundation
 class intern:Employee {
+    var schoolName:String
+    
     
 }
