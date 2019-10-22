@@ -19,7 +19,7 @@ class Car: Vehicle{
     }
     
     override func printMyData() {
-        
+        super.printMyData()
     }
 
 }
