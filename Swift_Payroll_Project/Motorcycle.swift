@@ -8,14 +8,14 @@
 
 import Foundation
 class Motorcycle : Vehicle{
-   private var model : String
+   private var model:String
    private var type:String
     
-    init(model : String,type:String)
+    init(model:String,type:String,plate:String,make:Int)
     {
-        super.init(make: <#T##Int#>, plate: <#T##String#>)
         self.model=model
         self.type=type
+        super.init(make:make, plate:plate)
     }
     
     
