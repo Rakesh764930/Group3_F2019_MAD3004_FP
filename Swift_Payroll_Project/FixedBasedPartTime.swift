@@ -11,10 +11,10 @@ class FixedBasedPartTime : PartTime
 {
     var fixedAmount:Float
     
-    init(fixedAmount:Float,rate:Float , hoursWorked:Float) {
+    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int) {
        
         self.fixedAmount=fixedAmount
-         super.init(rate:rate, hoursWorked:hoursWorked)
+         super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age)
     }
     
     

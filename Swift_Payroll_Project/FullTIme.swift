@@ -9,7 +9,7 @@
 import Foundation
 class FullTIme:Employee{
     private var salary: Double
-    var bonus:Double
+    private var bonus:Double
     init(name: String, age: Int,bonus:Double,salary: Double) {
         self.bonus=bonus
         self.salary=salary
