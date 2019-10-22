@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class PartTime : Employee
+class PartTime:Employee
 {
     
     var rate : Float
@@ -22,7 +22,7 @@ class PartTime : Employee
         
         self.rate=rate
         self.hoursWorked=hoursWorked
-        super.init(name: name, age: age,salary:salary)
+        super.init(name: name, age: age)
         
     }
     override func printMyData()
