@@ -9,7 +9,8 @@
 import Foundation
 enum commisionBasedError:Error
 {
-    
+    case 
+    case
 }
 class CommissionBasedPartTime:PartTime{
     
