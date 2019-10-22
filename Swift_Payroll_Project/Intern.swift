@@ -8,7 +8,7 @@
 
 import Foundation
 class intern:Employee {
-    var schoolName:String
+    private var schoolName:String
     
     init(name:String,age:Int,schoolName:String) {
         self.schoolName=schoolName
