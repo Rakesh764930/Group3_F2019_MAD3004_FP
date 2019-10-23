@@ -20,7 +20,7 @@ class Motorcycle : Vehicle{
     
    override func printMyData() {
     print("=========================")
-    print("Employee has a Motorcycle \n========================")
+    print("Employee has a \(type) \n========================")
     super.printMyData()
     print("Model     :\(model)")
     print("type    :\(type)")

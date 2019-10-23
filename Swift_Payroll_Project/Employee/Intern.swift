@@ -14,5 +14,8 @@ class Intern:Employee {
         super.init(name:name,age:age,type:type)
     
     }
-    
+    override func printMyData() {
+        super.printMyData()
+        
+    }
 }
