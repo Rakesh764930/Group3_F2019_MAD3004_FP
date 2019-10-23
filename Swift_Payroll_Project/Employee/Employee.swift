@@ -44,14 +44,15 @@ func calcBirthYear() -> Int{
     //returning result
     return currYear - age
 }
-func calcEarnings() -> Float{
+    func calcEarnings() -> Float{
         return 1000.00;
     }
+    
 func printMyData() {
         print("Name   : \(name)")
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
-        print("User is a \(type) employee")
+        print("Employee is a \(type)")
     
     if vdict.count != 0{
         for i in vdict.values{
@@ -60,7 +61,7 @@ func printMyData() {
         }
     else{
         print("====================")
-        print("User has no vehicle")
+        print("Employee has no vehicle")
     }
     
     }

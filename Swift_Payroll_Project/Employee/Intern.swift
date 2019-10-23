@@ -9,6 +9,7 @@
 import Foundation
 class Intern:Employee {
     private var schoolName:String
+    
     init(name:String,age:Int,schoolName:String,type:String) {
         self.schoolName=schoolName
         super.init(name:name,age:age,type:type)
@@ -16,6 +17,7 @@ class Intern:Employee {
     }
     override func printMyData() {
         super.printMyData()
-        
+        print("School name : \(schoolName)")
+        print("Salary : \(calcEarnings().salaryFormat())")
     }
 }
