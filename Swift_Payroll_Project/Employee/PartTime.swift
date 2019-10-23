@@ -12,17 +12,16 @@ class PartTime:Employee
     
     var rate : Float
      var hoursWorked : Float
-    var finalSalary:Float
+   
    
     
     
-    init(rate:Float,hoursWorked:Float,name:String,age:Int,finalSalary:Float,type:String)
+    init(rate:Float,hoursWorked:Float,name:String,age:Int,type:String)
         
     {
         
         self.rate=rate
         self.hoursWorked=hoursWorked
-        self.finalSalary=finalSalary
         super.init(name: name, age: age, type: type)
         
     }
@@ -30,7 +29,7 @@ class PartTime:Employee
     {
         super.printMyData()
        // print("Employee is Part Time / Commissioned")
-       print("Rate  :\(rate) ")
+        print("Rate  :\(rate) ")
         print("Hours Worked  : \(hoursWorked)")
     }
     

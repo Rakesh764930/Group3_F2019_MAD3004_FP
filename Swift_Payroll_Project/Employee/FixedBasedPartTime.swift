@@ -11,19 +11,23 @@ class FixedBasedPartTime : PartTime
 {
     var fixedAmount:Float
     
-    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int,finalSalary:Float,type:String) {
+    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int,type:String) {
        
         self.fixedAmount=fixedAmount
-        super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age,finalSalary:finalSalary, type: type)
+        super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age, type: type)
     }
     
     
     override func calcEarnings() -> Float {
-        finalSalary = hoursWorked * rate + fixedAmount
+        var finalSalary = hoursWorked * rate + fixedAmount
         return finalSalary
     }
     
-    
+    override func printMyData() {
+        super.printMyData()
+        print("Fixed Amount : \(fixedAmount)")
+        print("Total Salary : \(calcEarnings().salaryFormat())")
+    }
     
     
     
