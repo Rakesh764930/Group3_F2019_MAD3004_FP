@@ -9,9 +9,9 @@
 import Foundation
 class Intern:Employee {
     private var schoolName:String
-    init(name:String,age:Int,schoolName:String) {
+    init(name:String,age:Int,schoolName:String,type:String) {
         self.schoolName=schoolName
-        super.init(name:name,age:age)
+        super.init(name:name,age:age,type:type)
     
     }
     

@@ -10,10 +10,10 @@ import Foundation
 class FullTIme:Employee{
     private var salary: Double
     private var bonus:Double
-    init(name: String, age: Int,bonus:Double,salary: Double) {
+    init(name: String, age: Int,bonus:Double,salary: Double,type:String) {
         self.bonus=bonus
         self.salary=salary
-        super.init(name:name,age:age)
+        super.init(name:name,age:age, type: type)
     }
   
 }
