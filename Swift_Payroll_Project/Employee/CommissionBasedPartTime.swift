@@ -25,7 +25,7 @@ class CommissionBasedPartTime:PartTime{
 
     override func calcEarnings() -> Float {
          commission = hoursWorked * rate * commissionPerc/100;
-       var finalSalary = hoursWorked * rate + commission;
+       let finalSalary = hoursWorked * rate + commission;
         return finalSalary
     }
         
