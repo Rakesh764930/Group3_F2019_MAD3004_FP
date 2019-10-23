@@ -7,6 +7,12 @@
 //
 
 import Foundation
+enum FacultyError: Error
+{
+
+    case InvalidMakeWithMessage(message: String)
+
+}
 class Vehicle : IDisplay
 {
     var make:Int

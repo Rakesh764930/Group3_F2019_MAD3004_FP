@@ -49,10 +49,10 @@ func readJsonFile(jsonFileName: String)
                 {
                     employee.type = type
                    if employee.type == "FullTime"{
-                    var name = (jsonDictionary["name"]) as? String
-                    var age = (jsonDictionary["age"]) as? Int
-                    var salary = (jsonDictionary["salary"]) as? Float
-                    var bonus = (jsonDictionary["bonus"]) as? Float
+                    let name = (jsonDictionary["name"]) as? String
+                    let age = (jsonDictionary["age"]) as? Int
+                    let salary = (jsonDictionary["salary"]) as? Float
+                    let bonus = (jsonDictionary["bonus"]) as? Float
                     
                     var fullTime = FullTIme(name: name!, age: age!, bonus: bonus!, salary: salary!, type: type)
                     var vehicle: Vehicle
