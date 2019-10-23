@@ -29,8 +29,4 @@ class FixedBasedPartTime : PartTime
         print("Total Salary : \(calcEarnings().salaryFormat())")
     }
     
-    
-    
-    
-    
 }

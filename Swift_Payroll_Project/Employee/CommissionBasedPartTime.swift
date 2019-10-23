@@ -13,26 +13,26 @@ class CommissionBasedPartTime:PartTime{
     
     var commission:Float
     
-    init(rate: Float,hoursWorked:Float,commissionPerc:Float,finalSalary:Float,commission:Float,name:String,age:Int,type:String)
+    init(rate: Float,hoursWorked:Float,commissionPerc:Float,commission:Float,name:String,age:Int,type:String)
     {
         
         self.commissionPerc=commissionPerc
     
         self.commission=commission
         
-        super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age,finalSalary:finalSalary, type: type)
+        super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age, type: type)
     }
 
     override func calcEarnings() -> Float {
          commission = hoursWorked * rate * commissionPerc/100;
-        finalSalary = hoursWorked * rate + commission;
+       var finalSalary = hoursWorked * rate + commission;
         return finalSalary
     }
         
     override func printMyData() {
         super.printMyData();
         print("Commission Percentage  = \(commissionPerc)" )
-        print("Earnings     =  \(finalSalary.salaryFormat())")
+        print("Earnings     =  \(calcEarnings().salaryFormat())")
     }
 
 

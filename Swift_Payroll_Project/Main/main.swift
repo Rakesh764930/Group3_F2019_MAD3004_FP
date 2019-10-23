@@ -14,7 +14,8 @@ import Foundation
 var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000,type: "FullTime")
 var c1 =  Car(brand: "Ferrari", numberOfSeats: 2, make: 2018, plate: "LVE142",type: "Car")
 var m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2018)
-f1.addVehicle(v1: c1)
+f1.addVehicle(v: c1)
+f1.addVehicle(v: m1)
 //f1.addVehicle(v1: m1)
 f1.printMyData()
 

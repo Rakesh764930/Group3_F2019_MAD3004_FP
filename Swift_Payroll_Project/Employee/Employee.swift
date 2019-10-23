@@ -28,8 +28,8 @@ class Employee:IDisplay{
 //    }
     
     
-    func addVehicle(v1:Vehicle) {
-        vdict.updateValue(v1, forKey: v1.plate)
+    func addVehicle(v:Vehicle) {
+        vdict.updateValue(v, forKey: v.plate)
         
     }
     
