@@ -18,8 +18,8 @@ class FullTIme:Employee{
     override func printMyData() {
         super.printMyData()
         print("========================")
-        print("Salary Information     ")
-        print("Salary : \(salary.salaryFormat())")
+        print("Salary Information     \n========================")
+        print("Base Salary : \(salary.salaryFormat())")
         print("Bonus : \(bonus.salaryFormat())")
         print("Total Salary : \((salary+bonus).salaryFormat())\n")    }
 }
