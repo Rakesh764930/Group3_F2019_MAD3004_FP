@@ -52,6 +52,7 @@ func printMyData() {
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
         print("User is a \(type) employee")
+    
     if vdict.count != 0{
         for i in vdict.values{
             i.printMyData()

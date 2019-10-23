@@ -10,7 +10,7 @@ import Foundation
 extension Float{
     func salaryFormat() ->String
     {
-       
+
         return String(format: "$%0.2f", Float(self))
     }
 }

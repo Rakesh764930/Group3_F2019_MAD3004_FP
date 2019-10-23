@@ -10,17 +10,18 @@ import Foundation
 
 //print("Hello, World!")
 
-//  test
-//var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000)
-//var c1 =  Car(brand: "Ferrari", numberOfSeats: 2, make: 2018, plate: "LVE142")
-//var m1 = Motorcycle(model: "Ducati", type: "Sports Bike", plate: "LFM421", make: 2018)
-//f1.addVehicle(v1: c1)
-//f1.printMyData()
+ // test
+var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000,type: "FullTime")
+var c1 =  Car(brand: "Ferrari", numberOfSeats: 2, make: 2018, plate: "LVE142",type: "Car")
+var m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2018)
+f1.addVehicle(v1: c1)
+//f1.addVehicle(v1: m1)
+f1.printMyData()
 
 
 print("Final Output")
 
-func readJsonFile(jsonFileName: String)
+/*func readJsonFile(jsonFileName: String)
 {
     let url = Bundle.main.url(forResource: jsonFileName, withExtension: "json")
     
@@ -52,5 +53,5 @@ func readJsonFile(jsonFileName: String)
             }
         }
     }
-    readJsonFile(jsonFileName: "Users")
-}
+    readJsonFile(jsonFileName: "Users")*/
+//
