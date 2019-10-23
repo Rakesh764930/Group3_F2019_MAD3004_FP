@@ -11,14 +11,14 @@ class Employee:IDisplay{
     var name:String
     var age:Int
     var vdict = Dictionary<String, Vehicle>()
-    //var c1:Car?
+    var type:String
     //var m1:Motorcycle?
     var v2:Vehicle?
     
-    init(name:String,age:Int) {
+    init(name:String,age:Int,type:String) {
         self.name=name
         self.age=age
-        
+        self.type=type
     }
     
  //   init(name:String,age:Int, m:Motorcycle) {
@@ -51,17 +51,15 @@ func printMyData() {
         print("Name   : \(name)")
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
+        print("User is a \(type) employee")
     if vdict.count != 0{
-        for i in vdict.values{
-            print(i)
+        v2?.printMyData()
         }
-    }
     else{
         print("====================")
         print("User has no vehicle")
     }
     
     }
-    
-    
 }
+
