@@ -8,13 +8,12 @@
 
 import Foundation
 class Employee:IDisplay{
-    var id:String?
     var name:String
     var age:Int
-    var vdict = Dictionary<String, Any>()
+    var vdict = Dictionary<String, Vehicle>()
     //var c1:Car?
     //var m1:Motorcycle?
-    
+    var v2:Vehicle?
     
     init(name:String,age:Int) {
         self.name=name
@@ -30,7 +29,8 @@ class Employee:IDisplay{
     
     
     func addVehicle(v1:Vehicle) {
-        vdict.updateValue(Employee, forKey: v1.plate)
+        vdict.updateValue(v1, forKey: v1.plate)
+        v2 = v1
     }
     
 
@@ -52,11 +52,12 @@ func printMyData() {
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
     if vdict.count != 0{
-        for (_,key) in vdict{
-            print(key)
+        for i in vdict.values{
+            print(i)
         }
     }
     else{
+        print("====================")
         print("User has no vehicle")
     }
     
