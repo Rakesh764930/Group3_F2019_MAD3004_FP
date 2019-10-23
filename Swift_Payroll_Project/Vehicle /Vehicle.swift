@@ -9,7 +9,7 @@
 import Foundation
 class Vehicle : IDisplay
 {
-     var make:Int
+    var make:Int
     var plate:String
     
 

@@ -10,9 +10,10 @@ import Foundation
 class Car: Vehicle{
     private var brand:String
     private var numberOfSeats:Int
-    
-    init(brand:String,numberOfSeats:Int,make:Int,plate:String)
+    private var type:String
+    init(brand:String,numberOfSeats:Int,make:Int,plate:String,type:String)
     {
+        self.type=type
         self.brand=brand
         self.numberOfSeats=numberOfSeats
         super.init(make:make,plate:plate)

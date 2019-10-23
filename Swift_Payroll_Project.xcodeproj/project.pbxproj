@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B7C1ADB235E907D008928A7 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C1ADA235E907D008928A7 /* IDisplay.swift */; };
 		9B8B532A23594B3100CAA12B /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */; };
-		9B8FCE02235FDE4C00C6C066 /* FinalProject.json in Copy Files */ = {isa = PBXBuildFile; fileRef = 9B8FCE01235FDE4C00C6C066 /* FinalProject.json */; };
+		9B922B852360F1C700B3CE84 /* Users.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B922B842360F1C700B3CE84 /* Users.json */; };
 		9BB7D3DB235FA29300DF89D5 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D3DA235FA29300DF89D5 /* Intern.swift */; };
 		9BB7D3DD235FA4E400DF89D5 /* FullTIme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */; };
 		9BBBF44C2357E69200E0802C /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */; };
@@ -22,13 +22,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9B922B832360EC3200B3CE84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B922B852360F1C700B3CE84 /* Users.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BCC347C2356814D0039585C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				9B8FCE02235FDE4C00C6C066 /* FinalProject.json in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -38,7 +47,7 @@
 /* Begin PBXFileReference section */
 		9B7C1ADA235E907D008928A7 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
-		9B8FCE01235FDE4C00C6C066 /* FinalProject.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = FinalProject.json; path = ../../Downloads/Day7ReadingJsonFIles/Day7ReadingJsonFIles/FinalProject.json; sourceTree = "<group>"; };
+		9B922B842360F1C700B3CE84 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Users.json; path = "Swift_Payroll_Project/JSON File/Users.json"; sourceTree = "<group>"; };
 		9BB7D3DA235FA29300DF89D5 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
 		9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTIme.swift; sourceTree = "<group>"; };
 		9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
@@ -104,7 +113,7 @@
 		9BCC34752356814D0039585C = {
 			isa = PBXGroup;
 			children = (
-				9B8FCE01235FDE4C00C6C066 /* FinalProject.json */,
+				9B922B842360F1C700B3CE84 /* Users.json */,
 				9BCC34802356814D0039585C /* Swift_Payroll_Project */,
 				9BCC347F2356814D0039585C /* Products */,
 			);
@@ -139,6 +148,7 @@
 				9BCC347A2356814D0039585C /* Sources */,
 				9BCC347B2356814D0039585C /* Frameworks */,
 				9BCC347C2356814D0039585C /* Copy Files */,
+				9B922B832360EC3200B3CE84 /* CopyFiles */,
 			);
 			buildRules = (
 			);
