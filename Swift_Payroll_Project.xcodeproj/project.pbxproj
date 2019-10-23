@@ -10,6 +10,7 @@
 		9B7C1ADB235E907D008928A7 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C1ADA235E907D008928A7 /* IDisplay.swift */; };
 		9B8B532A23594B3100CAA12B /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */; };
 		9B922B852360F1C700B3CE84 /* Users.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B922B842360F1C700B3CE84 /* Users.json */; };
+		9B922B882360FADF00B3CE84 /* SalaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B922B872360FADF00B3CE84 /* SalaryExtension.swift */; };
 		9BB7D3DB235FA29300DF89D5 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D3DA235FA29300DF89D5 /* Intern.swift */; };
 		9BB7D3DD235FA4E400DF89D5 /* FullTIme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */; };
 		9BBBF44C2357E69200E0802C /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */; };
@@ -47,7 +48,8 @@
 /* Begin PBXFileReference section */
 		9B7C1ADA235E907D008928A7 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B8B532923594B3100CAA12B /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
-		9B922B842360F1C700B3CE84 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Users.json; path = "Swift_Payroll_Project/JSON File/Users.json"; sourceTree = "<group>"; };
+		9B922B842360F1C700B3CE84 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		9B922B872360FADF00B3CE84 /* SalaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryExtension.swift; sourceTree = "<group>"; };
 		9BB7D3DA235FA29300DF89D5 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
 		9BB7D3DC235FA4E400DF89D5 /* FullTIme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTIme.swift; sourceTree = "<group>"; };
 		9BBBF44B2357E69200E0802C /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
@@ -105,15 +107,23 @@
 		9B8FCE00235FB3DB00C6C066 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9B922B842360F1C700B3CE84 /* Users.json */,
 				9BCC34812356814D0039585C /* main.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
+		9B922B862360FAC700B3CE84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B922B872360FADF00B3CE84 /* SalaryExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9BCC34752356814D0039585C = {
 			isa = PBXGroup;
 			children = (
-				9B922B842360F1C700B3CE84 /* Users.json */,
 				9BCC34802356814D0039585C /* Swift_Payroll_Project */,
 				9BCC347F2356814D0039585C /* Products */,
 			);
@@ -130,6 +140,7 @@
 		9BCC34802356814D0039585C /* Swift_Payroll_Project */ = {
 			isa = PBXGroup;
 			children = (
+				9B922B862360FAC700B3CE84 /* Extensions */,
 				9B8FCE00235FB3DB00C6C066 /* Main */,
 				9B8FCDFF235FB3C200C6C066 /* Display Protocol */,
 				9B8FCDFE235FB38700C6C066 /* Employee */,
@@ -197,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B8B532A23594B3100CAA12B /* FixedBasedPartTime.swift in Sources */,
+				9B922B882360FADF00B3CE84 /* SalaryExtension.swift in Sources */,
 				9BCC348D2356A3250039585C /* Motorcycle.swift in Sources */,
 				9BF1114E2357E44E00A7A1BF /* Employee.swift in Sources */,
 				9BB7D3DD235FA4E400DF89D5 /* FullTIme.swift in Sources */,

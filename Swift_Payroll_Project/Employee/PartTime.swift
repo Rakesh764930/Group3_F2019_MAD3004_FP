@@ -29,7 +29,7 @@ class PartTime:Employee
     override func printMyData()
     {
         super.printMyData()
-        print("Employee is Part Time Commissioned")
+       // print("Employee is Part Time / Commissioned")
        print("Rate  :\(rate) ")
         print("Hours Worked  : \(hoursWorked)")
     }

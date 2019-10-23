@@ -23,7 +23,7 @@ class Motorcycle : Vehicle{
     print("Employee has a Motorcycle")
     super.printMyData()
     print("Model     :\(model)")
-     print("type    :\(type)")
+    print("type    :\(type)")
     }
     
     

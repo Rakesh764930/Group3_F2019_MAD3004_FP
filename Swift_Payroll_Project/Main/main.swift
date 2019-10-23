@@ -38,6 +38,19 @@ func readJsonFile(jsonFileName: String)
     
     print(json)
     
-    
-    
+    var employeeList = [String: Employee]()
+    if let jsonArray = json as? [Any]{
+        var employee: Employee!
+        for empObject in jsonArray{
+            if let jsonDictionary =  empObject as? [String: Any]{
+                 if let type = jsonDictionary["type"] as? String
+                 {
+                    employee.type = type
+                    if employee.type == "FullTime"{
+                    }
+                }
+            }
+        }
+    }
+    readJsonFile(jsonFileName: "Users")
 }

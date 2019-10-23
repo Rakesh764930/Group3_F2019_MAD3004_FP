@@ -13,7 +13,7 @@ class Employee:IDisplay{
     var vdict = Dictionary<String, Vehicle>()
     var type:String
     //var m1:Motorcycle?
-    var v2:Vehicle?
+    
     
     init(name:String,age:Int,type:String) {
         self.name=name
@@ -30,7 +30,7 @@ class Employee:IDisplay{
     
     func addVehicle(v1:Vehicle) {
         vdict.updateValue(v1, forKey: v1.plate)
-        v2 = v1
+        
     }
     
 
@@ -44,7 +44,7 @@ func calcBirthYear() -> Int{
     //returning result
     return currYear - age
 }
-func calcEarnings() -> Double{
+func calcEarnings() -> Float{
         return 1000.00;
     }
 func printMyData() {
@@ -53,7 +53,9 @@ func printMyData() {
         print("Birth Year : \(calcBirthYear())")
         print("User is a \(type) employee")
     if vdict.count != 0{
-        v2?.printMyData()
+        for i in vdict.values{
+            i.printMyData()
+        }
         }
     else{
         print("====================")
