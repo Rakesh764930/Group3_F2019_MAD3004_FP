@@ -11,16 +11,16 @@ class Employee:IDisplay{
     var id:String?
     var name:String
     var age:Int
-    var vdict = Dictionary<String,Any>()
+    var vdict = Dictionary<String, Any>()
     //var c1:Car?
     //var m1:Motorcycle?
     
     
- //   init(name:String,age:Int, c:Car) {
-  //      self.name=name
- //       self.age=age
-   //     self.c1 = c
- //   }
+    init(name:String,age:Int) {
+        self.name=name
+        self.age=age
+        
+    }
     
  //   init(name:String,age:Int, m:Motorcycle) {
 //        self.name=name
@@ -29,8 +29,8 @@ class Employee:IDisplay{
 //    }
     
     
-    func addVehicle(V:Vehicle) {
-        vdict.updateValue(id!, forKey: V.plate)
+    func addVehicle(v1:Vehicle) {
+        vdict.updateValue(Employee, forKey: v1.plate)
     }
     
 
@@ -51,7 +51,14 @@ func printMyData() {
         print("Name   : \(name)")
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
-
+    if vdict.count != 0{
+        for (_,key) in vdict{
+            print(key)
+        }
+    }
+    else{
+        print("User has no vehicle")
+    }
     
     }
     

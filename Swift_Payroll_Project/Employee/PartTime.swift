@@ -16,7 +16,7 @@ class PartTime:Employee
    
     
     
-    init(rate:Float , hoursWorked:Float,name:String,age:Int,finalSalary:Float)
+    init(rate:Float,hoursWorked:Float,name:String,age:Int,finalSalary:Float)
         
     {
         
