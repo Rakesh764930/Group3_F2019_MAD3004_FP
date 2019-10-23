@@ -8,13 +8,31 @@
 
 import Foundation
 class Employee:IDisplay{
-var name:String
-var age:Int
+    var id:String?
+    var name:String
+    var age:Int
+    var vdict = Dictionary<String,Any>()
+    //var c1:Car?
+    //var m1:Motorcycle?
     
-    init(name:String,age:Int) {
-        self.name=name
-        self.age=age
+    
+ //   init(name:String,age:Int, c:Car) {
+  //      self.name=name
+ //       self.age=age
+   //     self.c1 = c
+ //   }
+    
+ //   init(name:String,age:Int, m:Motorcycle) {
+//        self.name=name
+ //       self.age=age
+   //     self.m1=m
+//    }
+    
+    
+    func addVehicle(V:Vehicle) {
+        vdict.updateValue(id!, forKey: V.plate)
     }
+    
 
 
 func calcBirthYear() -> Int{
@@ -33,11 +51,9 @@ func printMyData() {
         print("Name   : \(name)")
         print("Age    : \(age)")
         print("Birth Year : \(calcBirthYear())")
+
+    
     }
-    
-//  Objects Creation
-    
-    var c1 = Car(brand:String, numberOfSeats: <#T##Int#>, make: <#T##Int#>, plate: <#T##String#>)
     
     
 }

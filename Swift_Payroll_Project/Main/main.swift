@@ -10,4 +10,5 @@ import Foundation
 
 print("Hello, World!")
 
-
+//  test
+var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000)

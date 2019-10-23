@@ -15,7 +15,7 @@ class Car: Vehicle{
     {
         self.brand=brand
         self.numberOfSeats=numberOfSeats
-         super.init(make:make,plate:plate)
+        super.init(make:make,plate:plate)
     }
     
     override func printMyData() {
@@ -23,7 +23,4 @@ class Car: Vehicle{
         print("Brand     : \(brand)")
         print("Number of seats     :  \(numberOfSeats)")
     }
-    
-    
-    
 }
