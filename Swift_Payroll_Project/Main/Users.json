@@ -1,7 +1,6 @@
 [
 {
     "@class": "ca.lambton.payroll.employee.Intern",
-    "id": 1,
     "name": "Mitali",
     "age": 21,
     "vehicle": {

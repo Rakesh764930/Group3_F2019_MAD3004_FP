@@ -45,14 +45,28 @@ func readJsonFile(jsonFileName: String)
         var employee: Employee!
         for empObject in jsonArray{
             if let jsonDictionary = empObject as? [String: Any]{
-//               if let type = jsonDictionary["type"] as? String
-//                {
-//                    employee.type = type
-//                   if employee.type == "FullTime"{
-//
-//                    }
-//               }
-                print(jsonDictionary)
+               if let type = jsonDictionary["type"] as? String
+                {
+                    employee.type = type
+                   if employee.type == "FullTime"{
+                    var name = (jsonDictionary["name"]) as? String
+                    var age = (jsonDictionary["age"]) as? Int
+                    var salary = (jsonDictionary["salary"]) as? Float
+                    var bonus = (jsonDictionary["bonus"]) as? Float
+                    
+                    var fullTime = FullTIme(name: name!, age: age!, bonus: bonus!, salary: salary!, type: type)
+                    var vehicle: Vehicle
+                    if let vehDict = jsonDictionary["vehicle"] as? Dictionary<String, Any>
+                    {
+                        let vtype = vehDict["type"] as? String
+                        if vtype == "Car"{
+                            
+                        }
+                    }
+                    
+                    }
+               }
+//                print(jsonDictionary)
                 
             }
         }
