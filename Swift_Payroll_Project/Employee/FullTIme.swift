@@ -20,6 +20,6 @@ class FullTIme:Employee{
         print("========================")
         print("Salary Information     ")
         print("Salary : \(salary.salaryFormat())")
-      
-    }
+        print("Bonus : \(bonus.salaryFormat())")
+        print("Total Salary : \((salary+bonus).salaryFormat())\n")    }
 }
