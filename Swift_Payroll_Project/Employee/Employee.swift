@@ -63,7 +63,5 @@ func printMyData() {
         print("====================")
         print("Employee has no vehicle")
     }
-    
     }
 }
-

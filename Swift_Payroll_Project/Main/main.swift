@@ -11,18 +11,18 @@ import Foundation
 //print("Hello, World!")
 
  // test
-var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000,type: "FullTime")
-var c1 =  Car(brand: "Ferrari", numberOfSeats: 2, make: 2018, plate: "LVE142",type: "Car")
-var m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2018)
-f1.addVehicle(v: c1)
-f1.addVehicle(v: m1)
-//f1.addVehicle(v1: m1)
-f1.printMyData()
+//var f1 = FullTIme(name: "Rakesh", age: 22, bonus: 250, salary: 25000,type: "FullTime")
+//var c1 =  Car(brand: "Ferrari", numberOfSeats: 2, make: 2018, plate: "LVE142",type: "Car")
+//var m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2018)
+//f1.addVehicle(v: c1)
+//f1.addVehicle(v: m1)
+////f1.addVehicle(v: m1)
+//f1.printMyData()
 
 
-print("Final Output")
+print("End")
 
-/*func readJsonFile(jsonFileName: String)
+func readJsonFile(jsonFileName: String)
 {
     let url = Bundle.main.url(forResource: jsonFileName, withExtension: "json")
     
@@ -38,21 +38,26 @@ print("Final Output")
         return
     }
     
-    print(json)
+   // print(json)
     
     var employeeList = [String: Employee]()
     if let jsonArray = json as? [Any]{
         var employee: Employee!
         for empObject in jsonArray{
-            if let jsonDictionary =  empObject as? [String: Any]{
-                 if let type = jsonDictionary["type"] as? String
-                 {
-                    employee.type = type
-                    if employee.type == "FullTime"{
-                    }
-                }
+            if let jsonDictionary = empObject as? [String: Any]{
+//               if let type = jsonDictionary["type"] as? String
+//                {
+//                    employee.type = type
+//                   if employee.type == "FullTime"{
+//
+//                    }
+//               }
+                print(jsonDictionary)
+                
             }
         }
     }
-    readJsonFile(jsonFileName: "Users")*/
-//
+
+   
+}
+ readJsonFile(jsonFileName: "Users")
