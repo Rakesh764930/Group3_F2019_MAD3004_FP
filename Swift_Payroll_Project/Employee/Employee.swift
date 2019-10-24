@@ -13,18 +13,21 @@ class Employee:IDisplay{
     var vdict = Dictionary<String, Vehicle>()
     var type: String
     //var m1:Motorcycle?
-    var finalSalary = Dictionary<String, Float>()
     var totalSalary: Float
+    var total: Float
+    var finalS: Float {
+        total = total + totalSalary
+        return total
+    }
     
     
-    
-    init(name:String,age:Int,type:String,finSal: [String: Float]) {
+    init(name:String,age:Int,type:String,total: Float) {
         
         
         self.name=name
         self.age=age
         self.type=type
-        self.finalSalary = finSal
+        self.totalSalary = total
     }
     
  //   init(name:String,age:Int, m:Motorcycle) {
