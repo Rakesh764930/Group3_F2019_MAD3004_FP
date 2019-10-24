@@ -11,11 +11,15 @@ class Employee:IDisplay{
     var name:String
     var age:Int
     var vdict = Dictionary<String, Vehicle>()
-    var type:String
+    var type: String
     //var m1:Motorcycle?
     
     
-    init(name:String,age:Int,type:String) {
+    
+    
+    init(name:String,age:Int,type:String) throws {
+        
+        
         self.name=name
         self.age=age
         self.type=type

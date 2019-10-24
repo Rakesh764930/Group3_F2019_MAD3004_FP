@@ -7,12 +7,23 @@
 //
 
 import Foundation
+enum EmployeeError: Error {
+    
+    case InvalidData
+}
 class FixedBasedPartTime : PartTime
 {
+    
+    
+    
     var fixedAmount:Float
     
-    init(fixedAmount:Float,rate:Float,hoursWorked:Float,name:String,age:Int,type:String) {
+    init(fixedAmount:Float, rate:Float, hoursWorked:Float, name:String, age:Int, type:String)  throws {
        
+        guard age > 0 else{
+            throw EmployeeError.InvalidData
+        }
+        
         self.fixedAmount=fixedAmount
         super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age, type: type)
     }

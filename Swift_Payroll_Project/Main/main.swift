@@ -10,18 +10,48 @@ import Foundation
 
 //print("Hello, World!")
 
- // test
+// FullTime Employee
+do {
+    let f1 = FullTIme(name: "Ajeet", age: 22, bonus: 250, salary: 25000,type: "FullTime")
+    let c1 = Car(brand: "Ferrari", numberOfSeats: 2, make: 2019, plate: "LVE142",type: "Car")
+    f1.addVehicle(v: c1)
+    let m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2019)
+    f1.addVehicle(v: m1)
+    f1.printMyData()
+}catch EmployeeError.InvalidData {
+    print("InvalidData :(")
+}catch {
+    print(error.localizedDescription)
+}
 
-let f1 = FullTIme(name: "Ajeet", age: 22, bonus: 250, salary: 25000,type: "FullTime")
-let c1 = Car(brand: "Ferrari", numberOfSeats: 2, make: 2019, plate: "LVE142",type: "Car")
-f1.addVehicle(v: c1)
-let m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2019)
-f1.addVehicle(v: m1)
-//f1.addVehicle(v: m1)
+
+//PartTime - Fixed Based
+do {
+    let p1 = try FixedBasedPartTime(fixedAmount: 500, rate: 10, hoursWorked: 40, name: "Rakesh", age: 22, type: "Fixed Based PartTime")
+    let c2 = Car(brand: "Ferrari", numberOfSeats: 2, make: 2019, plate: "LVE142",type: "Car")
+    p1.addVehicle(v: c2)
+    p1.printMyData()
+}catch EmployeeError.InvalidData {
+    print("InvalidData :(")
+}catch {
+    print(error.localizedDescription)
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+// Printing
 f1.printMyData()
-
+p1.printMyData()
 print("End")
 
 //func readJsonFile(jsonFileName: String)
