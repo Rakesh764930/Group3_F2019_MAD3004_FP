@@ -17,6 +17,7 @@ class Motorcycle : Vehicle{
         self.type=type
         super.init(make:make, plate:plate)
     }
+
     
    override func printMyData() {
     print("=========================")

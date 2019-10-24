@@ -19,7 +19,7 @@ class FixedBasedPartTime : PartTime
     
     
     override func calcEarnings() -> Float {
-        var finalSalary = hoursWorked * rate + fixedAmount
+        let finalSalary = hoursWorked * rate + fixedAmount
         return finalSalary
     }
     

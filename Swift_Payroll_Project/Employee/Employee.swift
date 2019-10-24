@@ -27,7 +27,6 @@ class Employee:IDisplay{
    //     self.m1=m
 //    }
     
-    
     func addVehicle(v:Vehicle) {
         vdict.updateValue(v, forKey: v.plate)
         
