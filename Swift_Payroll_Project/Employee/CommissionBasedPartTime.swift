@@ -42,7 +42,7 @@ class CommissionBasedPartTime:PartTime{
         super.printMyData();
         print("========================")
         print("Salary Information     \n========================")
-        print("Commission   = \(commission())" )
+        print("Commission   = \(commission().salaryFormat())" )
         print("Earnings     =  \(calcEarnings().salaryFormat())")
     }
 

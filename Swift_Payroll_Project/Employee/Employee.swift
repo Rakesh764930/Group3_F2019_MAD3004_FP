@@ -52,10 +52,12 @@ func calcBirthYear() -> Int{
     }
     
 func printMyData() {
-        print("Name   : \(name)")
-        print("Age    : \(age)")
+        print("****************************************************************")
+        print("\n\n\nName   : \(name)")
+        print("Age    : \(age.ageFormat())")
         print("Birth Year : \(calcBirthYear())")
         print("Employee is a \(type)")
+        
     
     if vdict.count != 0{
         for i in vdict.values{
