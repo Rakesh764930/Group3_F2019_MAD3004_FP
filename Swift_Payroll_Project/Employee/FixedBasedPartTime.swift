@@ -17,7 +17,6 @@ class FixedBasedPartTime : PartTime
         super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age, type: type)
     }
     
-    
     override func calcEarnings() -> Float {
         let finalSalary = hoursWorked * rate + fixedAmount
         return finalSalary
