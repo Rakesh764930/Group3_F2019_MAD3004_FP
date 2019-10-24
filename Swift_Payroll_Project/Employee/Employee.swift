@@ -53,10 +53,10 @@ func calcBirthYear() -> Int{
     
 func printMyData() {
         print("****************************************************************")
-        print("\n\n\nName   : \(name)")
+        print("\nName   : \(name)")
         print("Age    : \(age.ageFormat())")
         print("Birth Year : \(calcBirthYear())")
-        print("Employee is a \(type)")
+    
         
     
     if vdict.count != 0{
@@ -68,5 +68,6 @@ func printMyData() {
         print("====================")
         print("Employee has no vehicle")
     }
+    print("Employee is a \(type)")
     }
 }
