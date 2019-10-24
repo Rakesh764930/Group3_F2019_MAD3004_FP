@@ -46,15 +46,4 @@ class CommissionBasedPartTime:PartTime{
         print("Earnings     =  \(calcEarnings().salaryFormat())")
     }
 
-
-
-
-
-
-
-
-
-
-
-
 }
