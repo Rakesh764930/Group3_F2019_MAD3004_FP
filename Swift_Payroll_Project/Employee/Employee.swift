@@ -13,16 +13,18 @@ class Employee:IDisplay{
     var vdict = Dictionary<String, Vehicle>()
     var type: String
     //var m1:Motorcycle?
+    var finalSalary = Dictionary<String, Float>()
+    var totalSalary: Float
     
     
     
-    
-    init(name:String,age:Int,type:String) {
+    init(name:String,age:Int,type:String,finSal: [String: Float]) {
         
         
         self.name=name
         self.age=age
         self.type=type
+        self.finalSalary = finSal
     }
     
  //   init(name:String,age:Int, m:Motorcycle) {
@@ -57,7 +59,6 @@ func printMyData() {
         print("Age    : \(age.ageFormat())")
         print("Birth Year : \(calcBirthYear())")
     
-        
     
     if vdict.count != 0{
         for i in vdict.values{

@@ -13,7 +13,8 @@ class FullTIme:Employee{
     init(name: String, age: Int,bonus:Float,salary: Float,type:String) throws {
         self.bonus=bonus
         self.salary=salary
-        super.init(name:name,age:age, type: type)
+        let finSal = [salary + bonus]
+        super.init(name:name,age:age, type: type, finSal: finSal)
     }
     override func printMyData() {
         super.printMyData()
