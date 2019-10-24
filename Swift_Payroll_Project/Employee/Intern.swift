@@ -10,7 +10,7 @@ import Foundation
 class Intern:Employee {
     private var schoolName:String
     
-    init(name:String,age:Int,schoolName:String,type:String) {
+    init(name:String,age:Int,schoolName:String,type:String) throws {
         self.schoolName=schoolName
         super.init(name:name,age:age,type:type)
     

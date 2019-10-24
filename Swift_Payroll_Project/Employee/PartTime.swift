@@ -22,7 +22,7 @@ class PartTime:Employee
         
         self.rate=rate
         self.hoursWorked=hoursWorked
-        super.init(name: name, age: age, type: type)
+        super.init(name: name, age: age, type: type) 
         
     }
     override func printMyData()

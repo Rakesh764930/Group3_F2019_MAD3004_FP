@@ -7,31 +7,40 @@
 //
 
 import Foundation
+enum EmployeeErrorcommission: Error {
+    
+    case InvalidData
+}
 class CommissionBasedPartTime:PartTime{
     
     var commissionPerc:Float
     
-    var commission:Float
     
-    init(rate: Float,hoursWorked:Float,commissionPerc:Float,commission:Float,name:String,age:Int,type:String)
+    init(rate: Float,hoursWorked:Float,commissionPerc:Float,name:String,age:Int,type:String) throws
     {
-        
+        guard age > 0 else{
+            throw EmployeeErrorcommission.InvalidData
+        }
         self.commissionPerc=commissionPerc
-    
-        self.commission=commission
+        
         
         super.init(rate:rate,hoursWorked:hoursWorked,name:name,age:age, type: type)
+        
     }
 
     override func calcEarnings() -> Float {
-         commission = hoursWorked * rate * commissionPerc/100;
+        let commission = hoursWorked * rate * commissionPerc/100;
        let finalSalary = hoursWorked * rate + commission;
         return finalSalary
     }
-        
+    func commission() -> Float{
+         let commis = hoursWorked * rate * commissionPerc/100;
+        return commis
+    }
+    
     override func printMyData() {
         super.printMyData();
-        print("Commission Percentage  = \(commissionPerc)" )
+        print("Commission   = \(commission())" )
         print("Earnings     =  \(calcEarnings().salaryFormat())")
     }
 

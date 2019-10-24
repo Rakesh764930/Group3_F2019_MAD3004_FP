@@ -10,7 +10,7 @@ import Foundation
 class FullTIme:Employee{
     private var salary: Float
     private var bonus:Float
-    init(name: String, age: Int,bonus:Float,salary: Float,type:String) {
+    init(name: String, age: Int,bonus:Float,salary: Float,type:String) throws {
         self.bonus=bonus
         self.salary=salary
         super.init(name:name,age:age, type: type)

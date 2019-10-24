@@ -12,7 +12,7 @@ import Foundation
 
 // FullTime Employee
 do {
-    let f1 = FullTIme(name: "Ajeet", age: 22, bonus: 250, salary: 25000,type: "FullTime")
+    let f1 = try FullTIme(name: "Ajeet", age: 22, bonus: 250, salary: 25000,type: "FullTime")
     let c1 = Car(brand: "Ferrari", numberOfSeats: 2, make: 2019, plate: "LVE142",type: "Car")
     f1.addVehicle(v: c1)
     let m1 = Motorcycle(model: "Ducati", type: "Motorcycle", plate: "LFM421", make: 2019)
@@ -37,21 +37,12 @@ do {
     print(error.localizedDescription)
 }
 
+do {
+    let p1 = try CommissionBasedPartTime(rate: 10, hoursWorked: 5, commissionPerc: 10, name: "Bushair", age: 22, type: "Commission Based")
+}
 
 
 
-
-
-
-
-
-
-
-
-
-// Printing
-f1.printMyData()
-p1.printMyData()
 print("End")
 
 //func readJsonFile(jsonFileName: String)

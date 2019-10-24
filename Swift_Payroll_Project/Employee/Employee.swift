@@ -17,7 +17,7 @@ class Employee:IDisplay{
     
     
     
-    init(name:String,age:Int,type:String) throws {
+    init(name:String,age:Int,type:String) {
         
         
         self.name=name
