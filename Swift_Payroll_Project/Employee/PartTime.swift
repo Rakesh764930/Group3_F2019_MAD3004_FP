@@ -29,6 +29,8 @@ class PartTime:Employee
     {
         super.printMyData()
        // print("Employee is Part Time / Commissioned")
+        print("========================")
+        print("Salary Information     \n========================")
         print("Rate  :\(rate) ")
         print("Hours Worked  : \(hoursWorked)")
     }

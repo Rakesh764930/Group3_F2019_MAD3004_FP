@@ -41,6 +41,7 @@ do {
     let c1 = try CommissionBasedPartTime(rate: 10, hoursWorked: 5, commissionPerc: 10, name: "Bushair", age: 22, type: "Commission Based")
     let m2 = Motorcycle(model: "Harley", type: "Motorcycle", plate: "LDB421", make: 2019)
     print("\n")
+    c1.addVehicle(v: m2)
     c1.printMyData()
 }
 catch EmployeeError.InvalidData {
