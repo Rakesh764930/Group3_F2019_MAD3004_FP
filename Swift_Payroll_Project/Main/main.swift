@@ -40,14 +40,23 @@ do {
 do {
     let c1 = try CommissionBasedPartTime(rate: 10, hoursWorked: 5, commissionPerc: 10, name: "Bushair", age: 22, type: "Commission Based")
     let m2 = Motorcycle(model: "Harley", type: "Motorcycle", plate: "LDB421", make: 2019)
+    print("\n")
+    c1.printMyData()
 }
 catch EmployeeError.InvalidData {
     print("InvalidAge :(")
 }catch {
     print(error.localizedDescription)
 }
-
-
+do {
+    let i1 = try Intern(name: "Ritik", age: 22, schoolName: "Lambton College", type: "Intern")
+i1.printMyData()
+}
+    catch EmployeeError.InvalidData {
+        print("InvalidAge :(")
+    }catch {
+        print(error.localizedDescription)
+    }
 print("End")
 
 //func readJsonFile(jsonFileName: String)
