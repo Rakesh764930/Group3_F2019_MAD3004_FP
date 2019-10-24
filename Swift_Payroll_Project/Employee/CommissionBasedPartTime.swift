@@ -40,6 +40,8 @@ class CommissionBasedPartTime:PartTime{
     
     override func printMyData() {
         super.printMyData();
+        print("========================")
+        print("Salary Information     \n========================")
         print("Commission   = \(commission())" )
         print("Earnings     =  \(calcEarnings().salaryFormat())")
     }

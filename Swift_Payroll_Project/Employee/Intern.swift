@@ -17,6 +17,8 @@ class Intern:Employee {
     }
     override func printMyData() {
         super.printMyData()
+        print("========================")
+        print("Salary Information     \n========================")
         print("School name : \(schoolName)")
         print("Salary : \(calcEarnings().salaryFormat())")
     }
